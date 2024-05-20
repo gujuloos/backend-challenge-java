@@ -7,7 +7,7 @@ Please ensure that you have Java JDK 17 on your machine and maven. Navigate to t
 
 ## Running the application
 
-To run the application after it has been successfully built. Please run the following command `mvn spring-boot:run` and the application should start up with the following message
+To run the application after it has been successfully built. Please run the following command `mvn spring-boot:run -Dspring-boot.run.profiles=test` and the application should start up with the following message
 
 > Started Application in x.xxx seconds (process running for x.xxx)
 
